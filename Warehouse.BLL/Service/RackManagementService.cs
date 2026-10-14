@@ -13,8 +13,8 @@ namespace Warehouse.BLL.Service
         {
             totalWeight = 0;
             warningMessage = string.Empty;
-            // Giả sử có một phương thức GetProductsOnFloor để lấy danh sách sản phẩm trên tầng
-            var productsOnFloor = GetProductsOnFloor(floorIndex);
+            // Giả sử có một phương thức GetProductđể lấy danh sách sản phẩm trên tầng
+            var productsOnFloor = GetProduct(floorIndex);
             foreach (var product in productsOnFloor)
             {
                 totalWeight += product.WeightKg * product.Quantity;
