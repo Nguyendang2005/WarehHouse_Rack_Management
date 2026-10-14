@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="WarehHouse_Rack_Management/WarehHouse_Rack_Management.csproj" />
+  <Project Path="Warehouse.BLL/Warehouse.BLL.csproj" />
+  <Project Path="Warehouse.Core/Warehouse.Core.csproj" />
+  <Project Path="Warehouse.DAL/Warehouse.DAL.csproj" />
+</Solution>
