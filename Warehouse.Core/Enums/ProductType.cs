@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Warehouse.BLL.Enums
+namespace Warehouse.Core.Enums
 {
-    internal class ProductType
+    public enum ProductType
     {
+        Standard = 1,
+        Perishable = 2,
+        Hazardous = 3
     }
 }
